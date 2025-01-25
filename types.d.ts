@@ -5,9 +5,9 @@ interface Book {
     title: string;
     author: string;
     genre: string;
-    rating: DO_NOT_USE_OR_YOU_WILL_BE_FIRED_EXPERIMENTAL_CREATE_ROOT_CONTAINERS;
-    total_copies: string;
-    available_copies: string;
+    rating: number;
+    total_copies: number;
+    available_copies: number;
     description: string;
     color: string;
     cover: string;
